@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>운세가이드 계정 삭제</title>
+<meta name="description" content="운세가이드 앱의 구글 백업 계정과 저장된 데이터를 삭제하는 방법">
+<style>
+  :root {
+    --ink: #1d1a2b;
+    --sub: #5a5568;
+    --line: #e4e0ea;
+    --bg: #faf9fc;
+    --card: #ffffff;
+    --accent: #3f4fa8;
+    --accent-soft: #eef0fb;
+    --warn: #b0432f;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ink: #ecebf3;
+      --sub: #a9a5b8;
+      --line: #34313f;
+      --bg: #16151c;
+      --card: #1f1e27;
+      --accent: #9aa6ef;
+      --accent-soft: #262a42;
+      --warn: #f0927f;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: "Pretendard", "Apple SD Gothic Neo", "Malgun Gothic", system-ui, sans-serif;
+    line-height: 1.7;
+    word-break: keep-all;
+    padding: 32px 16px 48px;
+  }
+  main { max-width: 640px; margin: 0 auto; display: flex; flex-direction: column; gap: 20px; }
+  .eyebrow { font-size: 13px; font-weight: 700; color: var(--accent); letter-spacing: .04em; }
+  h1 { font-size: 26px; line-height: 1.35; margin: 4px 0 0; text-wrap: balance; }
+  .lead { color: var(--sub); margin: 0; }
+  section { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 20px; }
+  h2 { font-size: 18px; margin: 0 0 10px; }
+  ol, ul { margin: 0; padding-left: 20px; }
+  li + li { margin-top: 6px; }
+  .path { display: inline-block; background: var(--accent-soft); color: var(--ink); border-radius: 8px; padding: 1px 8px; font-weight: 700; }
+  .mail { display: block; margin-top: 12px; background: var(--accent-soft); border-radius: 12px; padding: 14px 16px; }
+  .mail a { color: var(--accent); font-weight: 800; font-size: 17px; text-decoration: none; }
+  .mail a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 4px; }
+  .muted { color: var(--sub); font-size: 14px; }
+  .warn { color: var(--warn); font-weight: 700; }
+  .lang { border-top: 1px solid var(--line); padding-top: 20px; }
+  .lang h2 { font-size: 16px; }
+  footer { color: var(--sub); font-size: 13px; text-align: center; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <div class="eyebrow">운세가이드 · 계정 및 데이터 삭제</div>
+    <h1>운세가이드 계정과 백업 데이터를 지우는 방법</h1>
+    <p class="lead">운세가이드는 회원가입 없이 쓸 수 있고, 원하는 분만 구글 계정으로 백업을 켜요. 백업을 켠 계정과 그 데이터는 아래 두 가지 방법 중 하나로 언제든 지울 수 있어요.</p>
+  </header>
+
+  <section>
+    <h2>방법 1. 앱에서 바로 지우기</h2>
+    <ol>
+      <li>운세가이드 앱을 열고 홈에서 <span class="path">마이저장소</span>로 들어가요.</li>
+      <li>맨 위 <span class="path">구글 계정으로 백업 중</span> 카드에서 <span class="path">계정 삭제</span>를 눌러요.</li>
+      <li><span class="path">삭제할게요</span>를 누르면 바로 지워져요.</li>
+    </ol>
+  </section>
+
+  <section>
+    <h2>방법 2. 메일로 삭제 요청하기</h2>
+    <p style="margin:0">앱을 지웠거나 앱에서 삭제가 어려우면, 백업에 연결했던 <b>구글 이메일 주소</b>를 적어서 아래 주소로 보내 주세요. 받은 날부터 7일 안에 지우고 회신드려요.</p>
+    <div class="mail">
+      <a href="mailto:xpbrnc@nate.com?subject=%EC%9A%B4%EC%84%B8%EA%B0%80%EC%9D%B4%EB%93%9C%20%EA%B3%84%EC%A0%95%20%EC%82%AD%EC%A0%9C%20%EC%9A%94%EC%B2%AD">xpbrnc@nate.com</a>
+      <div class="muted">메일 제목: 운세가이드 계정 삭제 요청</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>지워지는 데이터</h2>
+    <ul>
+      <li>구글 계정 연결 정보(이메일 주소, 이름)</li>
+      <li>클라우드 백업 전체: 포인트, 열람한 리포트 기록, 등록한 사람들의 이름·생년월일·태어난 시간, 내 사주 정보, 운세 메모와 앱 설정</li>
+      <li>친구 초대 코드와 초대 기록</li>
+    </ul>
+    <p class="muted" style="margin:12px 0 0">삭제는 바로 처리되고 따로 보관하지 않아요. <span class="warn">지운 백업은 되살릴 수 없어요.</span></p>
+  </section>
+
+  <section>
+    <h2>지워지지 않는 데이터</h2>
+    <ul>
+      <li>휴대폰 안에 저장된 기록은 그대로 남아요. 앱을 지우면 함께 지워져요.</li>
+      <li>인앱 결제 내역은 Google Play가 관리해요. Google Play 결제 내역에서 확인할 수 있어요.</li>
+    </ul>
+  </section>
+
+  <section class="lang" lang="en">
+    <h2>Delete your Unse Guide (운세가이드) account</h2>
+    <ul>
+      <li><b>In the app:</b> My Page → “Backed up to Google” card → Delete account → Delete.</li>
+      <li><b>By email:</b> send the Google email address you linked to <a href="mailto:xpbrnc@nate.com?subject=Unse%20Guide%20account%20deletion">xpbrnc@nate.com</a>. We delete it within 7 days.</li>
+      <li><b>Deleted:</b> Google link (email, name), the whole cloud backup (points, unlocked reports, saved people's names and birth dates, your chart and settings), invite code and invite history. Nothing is kept afterwards.</li>
+      <li><b>Not deleted:</b> data stored on your phone (removed when you uninstall the app) and Google Play purchase records (managed by Google).</li>
+    </ul>
+  </section>
+
+  <section class="lang" lang="ja">
+    <h2>運勢ガイド（운세가이드）アカウントの削除</h2>
+    <ul>
+      <li><b>アプリで：</b>マイページ →「Googleアカウントでバックアップ中」→ アカウント削除 → 削除する</li>
+      <li><b>メールで：</b>連携したGoogleメールアドレスを <a href="mailto:xpbrnc@nate.com?subject=Unse%20Guide%20account%20deletion">xpbrnc@nate.com</a> へお送りください。7日以内に削除します。</li>
+      <li><b>削除されるもの：</b>Google連携情報（メール・名前）、クラウドのバックアップ全体、招待コードと招待履歴。削除後は保管しません。</li>
+      <li><b>削除されないもの：</b>端末内の記録（アプリ削除時に消えます）、Google Playの購入履歴。</li>
+    </ul>
+  </section>
+
+  <footer>운세가이드 · Google Play 앱 ID com.GUIDE.myapp</footer>
+</main>
+</body>
+</html>
